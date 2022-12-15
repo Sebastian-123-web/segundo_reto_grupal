@@ -88,6 +88,8 @@ header {
   }
 }
 
+/* Parte Sebastian Gerardo */
+
 .footer {
   overflow: hidden;
   width: 100%;
@@ -97,12 +99,16 @@ header {
 
 .footer .image-section {
   display: flex;
-  width: 100px;
+  margin: 0;
 }
 
-.footer .image-section img {
-  object-fit: contain;
-  height: 29.5em;
+.footer .image-section div{
+  width: 25%;
+}
+
+.footer .image-section div img {
+  width: 100%;
+  height: 100%;
 }
 
 .footer .footer-section {
