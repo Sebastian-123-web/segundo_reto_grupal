@@ -192,6 +192,48 @@ header {
   background-color: hsl(7, 99%, 70%);
 }
 
+/* Parte imagenes texto Sebastian Gerardo */
+
+.main .box-father .box-contain {
+  display: flex;
+  height: auto;
+  text-align: center;
+  flex-direction: column;
+  order: 0;
+  position: relative;
+}
+
+.main .box-father .box-contain .contain-berry {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 50%;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .box-father .box-contain .contain-berry h3 {
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 0.8em;
+}
+
+.main .box-father .box-contain .contain-berry .text-photo {
+  color: hsl(198, 62%, 26%);
+}
+
+.main .box-father .box-contain .contain-berry .text-graphic {
+  color: hsl(167, 40%, 24%);
+} 
+
+.main .box-father .box-contain .contain-berry p {
+  width: 90%;
+}
+
 /* Parte footer Sebastian Gerardo */
 
 .footer {
