@@ -65,7 +65,7 @@ header{
     font-size: 150px;
     margin-top: 30px;
 }
-@media screen and ( max-width: 375px ) {
+@media screen and ( max-width: 600px ) {
     .nav{
         width: 100%;
     }
