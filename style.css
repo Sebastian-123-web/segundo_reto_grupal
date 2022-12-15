@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+/* Parte Sebastian Bañagasta */
 header {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -31,9 +32,18 @@ header {
   margin-top: 25px;
 }
 .nav span {
-  font-size: 50px;
+  font-family: "Barlow", sans-serif;
+  font-size: 40px;
   font-weight: 700;
   margin-left: 25px;
+}
+.nav div{
+  display: flex;
+}
+.menu-burger{
+  display: none;
+  font-size: 40px;
+  margin-right: 25px;
 }
 .nav ul {
   list-style: none;
@@ -64,6 +74,7 @@ header {
   font-size: 80px;
   font-family: "Fraunces", serif;
   font-weight: 900;
+  text-align: center;
 }
 .title .arrow {
   font-size: 150px;
@@ -78,8 +89,14 @@ header {
         font-weight: 700;
         margin-left: 25px;
     }
+    
     .nav nav{
         display: none;
+    }
+    .menu-burger{
+      display: flex;
+      font-size: 40px;
+      margin-right: 25px;
     }
 
   .title h1 {
